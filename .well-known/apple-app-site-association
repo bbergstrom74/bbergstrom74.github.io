@@ -1,0 +1,19 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "X8N7X6D678.no.flytoget.betalingsappTest" ],
+             "components": [
+               {
+                  "/": "/app/pas/*",
+                  "comment": "Matches any URL with a path that starts with /app/pas."
+               },
+               {
+                  "/": "/app/cids/*",
+                  "comment": "Matches any URL with a path that starts with /app/cids."
+               }
+             ]
+           }
+       ]
+   }
+}
